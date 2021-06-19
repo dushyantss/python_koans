@@ -1,0 +1,16 @@
+[tool.poetry]
+authors = []
+description = ""
+name = "python_koans"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.8.3"
+black = {version = "^21.6b0", allow-prereleases = true}
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
